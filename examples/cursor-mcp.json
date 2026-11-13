@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "waymo": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/TheAIMogul/WaymoMCPGang",
+        "waymo-mcp"
+      ]
+    }
+  }
+}
