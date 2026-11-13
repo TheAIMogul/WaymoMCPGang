@@ -1,22 +1,13 @@
-.DS_Store
-.env
+# Cloudflare / Node
+.wrangler/
+node_modules/
+.dev.vars
+*.env
 .env.*
 !.env.example
-.venv/
-__pycache__/
-*.py[cod]
-*.chls
-*.chlsj
-*.chlz
-*.pem
-*.key
-credentials.json
-dist/
-build/
-*.egg-info/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
+
+# OS / editor
+.DS_Store
+
+# local-only working artifacts (never the Worker source)
 reports/
